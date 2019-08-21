@@ -1,0 +1,320 @@
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.main-header {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #445162;
+}
+
+.main-header:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;    
+}
+
+.main-header-wrapper {
+    float: left;
+}
+
+.main-header-title {
+    margin: 0 0 30px 0;
+    font-family: "ArialMT", sans-serif;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #fff;
+}
+
+.main-header-list {
+    margin: 0;
+    padding: 0;
+    font-family: "ArialMT", sans-serif;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    list-style-type: none;
+    color: #fff;
+}
+
+.main-header-list-item {
+    padding: 0 0 0 30px;
+    color: #fff;
+    position: relative;
+}
+
+.main-header-list-item:before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 19px;
+    background-image: url(/img/check_icon_346.png);
+    background-size: auto;
+/*  border: 1px solid black;*/
+    position: absolute;
+    top: 7px;
+    left: 0px;
+}
+
+.main-header-photo {
+    float: right;
+    width: 469px;
+    height: 214px;
+    display: block;
+    background-color: #fff;
+}
+
+.content {
+    width: 100%;
+    box-sizing: border-box;
+    clear: both;
+}
+
+.about-product {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.about-product:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.about-product-wrapper {
+    float: left;
+}
+
+.about-product-title {
+    margin: 0;
+    color: #445161;
+    width: 254px;
+    height: 28px;
+    font-family: "ArialMT", sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.about-product-text-1 {
+    width: 649px;
+    height: 63px;
+    font-family: "ArialMT", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.about-product-text-2 {
+    width: 653px;
+    height: 60px;
+    font-family: "ArialMT", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.about-product-video {
+    float: right;
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+    display: block;
+}
+
+.dignity {
+    padding: 50px;
+    width: 100%;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+}
+
+.dignity:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.dignity-title {
+    display: block;
+    font-family: "ArialMT", sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.dignity-list-left {
+    float: left;
+    display: block;
+    margin: 0;
+    padding: 0 0 0 46px;
+    width: 540px;
+    font-family: "ArialMT", sans-serif;
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333;
+}
+
+.dignity-list-item {
+    margin: 0 0 40px 0;
+    position: relative;
+}
+
+.dignity-list-item:before {
+    content: "+";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: #445161;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    line-height: 32px;
+    position: absolute;
+    top: 0;
+    left: -46px;
+}
+
+.dignity-list-right {
+    float: right;
+    display: block;
+    margin: 0;
+    padding: 0 0 0 46px;
+    width: 540px;
+    font-family: "ArialMT", sans-serif;
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333;
+}
+
+.scrinshots {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+
+.scrinshots:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.scrinshots-title {
+    display: block;
+    font-family: "ArialMT", sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    text-align: center;
+    margin: 50px 0 30px 0;
+}
+
+.scrinshots-block-1 {
+    display: block;
+    float: left;
+    width: 50%;
+    margin: 0 0 30px 0;
+    box-sizing: border-box;
+}
+
+.scrinshots-photo {
+    display: block;
+    width: 200px;
+    height: 150px;
+    background-color: #445161;
+    float: left;
+    margin: 0 10px 0 0;
+  }
+
+.scrinshots-content {
+    display: block;
+    width: 100%;
+    margin: 0 10px 0 0;
+}
+
+.scrinshots-content-title {
+    width: 100%;
+    font-family: "ArialMT", sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #445161;
+    margin: 0;
+}
+
+.scrinshots-content-text {
+    width: 100%;
+    font-family: "ArialMT", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333;
+    margin: 15px 0 0 0;
+}
+
+.scrinshots-block-2 {
+    display: block;
+    float: left;
+    width: 50%;
+    margin: 0 0 30px 0;
+    box-sizing: border-box;
+}
+
+.scrinshots-block-3 {
+    display: block;
+    float: right;  
+    width: 50%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.scrinshots-block-4 {
+    display: block;
+    float: right;
+    width: 50%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.reviews {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px 0 50px 0;
+    background-color: #f5f5f5;
+}
+
+.reviews:after {
+    content: "";
+    display: block;
+    clear: both;
+    width: 100%;
+}
+
+.reviews-title {
+    display: block;
+    text-align: center;
+    font-family: "ArialMT", sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    margin: 0 0 35px 0;
+}
